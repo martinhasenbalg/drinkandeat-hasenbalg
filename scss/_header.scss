@@ -1,0 +1,59 @@
+/*HEADER*/
+
+.banner {
+    background-color: whitesmoke;
+    padding-top: 15px;
+
+   }
+
+.banner__nombre {
+    text-align: center;
+    font-size: 4.68em;
+    margin: 0px;
+}
+
+.banner__sub {
+    text-align: center;
+    font-size: 1.6em;
+    padding-bottom: 15px;
+}
+
+.banner__nombre,
+.banner__sub {
+    color: skyblue;
+    text-align: center;
+    animation: blink 6s infinite;
+    -webkit-animation: blink 6s infinite;
+  
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+  }
+
+  100% {color: skyblue;
+  }
+}
+
+@keyframes blink {
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .banner__nombre {
+    font-size: 2.4em;
+  }
+}
+
+@media (max-width: 375px) {
+.banner__sub {
+  font-size: 0.8em;
+}
+}

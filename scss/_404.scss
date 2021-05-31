@@ -1,0 +1,37 @@
+
+.error404
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 50vh;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h4
+{
+	font-size: 6em;
+	text-align: center;
+	span
+	{
+	position: relative;
+	display: inline-flex;
+	color: skyblue;
+	
+}}
+h4 span:nth-child(odd)
+{
+	color: #414141;
+	line-height: 1em;
+	overflow: hidden;
+	letter-spacing: -1em;
+	transition: 1.0s ease-in-out;
+}
+
+h4:hover span:nth-child(odd)
+{
+	letter-spacing: 0;
+	
+}
+

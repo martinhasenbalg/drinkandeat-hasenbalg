@@ -1,0 +1,164 @@
+.contacto
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 20px;
+    width: 100%;
+    background: white;
+}
+
+.formcontenedor
+{   position: relative;
+    width: 100%;
+    max-width: 1000px;
+    padding: 50px;
+    background: whitesmoke;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+}
+
+.formcontenedor h2
+{
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-style: normal;
+    background: none;
+
+}
+.formcontenedor .row100
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+}
+.formcontenedor .row100 .col
+{
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 20px;
+    transition: 0.5s;
+}
+.formcontenedor .row100 .inputBox
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: black;
+}
+.formcontenedor .row100 .inputBox input,
+.formcontenedor .row100 .inputBox textarea
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #000;
+}
+.formcontenedor .row100 .inputBox .text
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.formcontenedor .row100 .inputBox input:focus + .text,
+.formcontenedor .row100 .inputBox input:valid + .text
+{
+    top: -35px;
+    left: -10px;
+}
+.formcontenedor .row100 .inputBox .line
+{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: skyblue;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+.formcontenedor .row100 .inputBox input:focus ~ .line,
+.formcontenedor .row100 .inputBox input:valid ~ .line
+{
+    height: 100%;
+}
+
+.formcontenedor .row100 .inputBox.textarea
+{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}
+.formcontenedor .row100 .inputBox textarea
+{
+    height: 100%;
+    resize: none;
+}
+.formcontenedor .row100 .inputBox textarea:focus ~ .line,
+.formcontenedor .row100 .inputBox textarea:valid ~ .line
+{
+    height: 100%;
+}
+.formcontenedor .row100 .inputBox textarea:focus + .text,
+.formcontenedor .row100 .inputBox textarea:valid + .text
+{
+    top: -35px;
+    left: -10px;
+}
+input[type="submit"]
+{
+    border: none;
+    padding: 10px 40px;
+    cursor: pointer;
+    outline: none;
+    background: skyblue;
+    color: #000;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+@media (max-width: 767px)
+{
+    section::before
+    {
+        transform: translate(-200px,-180px);
+    }
+    section::after
+    {
+        transform: translate(220px,180px);
+    }
+    .formcontenedor
+    {
+        padding: 20px;
+    }
+    .formcontenedor h2
+    {
+        font-size: 28px;
+    }
+}

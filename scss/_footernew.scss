@@ -1,0 +1,152 @@
+
+footer
+{
+	width: 100%;
+	height: auto;
+	padding: 50px 100px;
+	background: whitesmoke;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  	font-family: 'Poppins', sans-serif;
+		.footcontenedor
+		{
+			width: 100%;
+			display: grid;
+    		grid-template-columns: 2fr 1fr 1fr 1fr;
+			grid-gap: 20px;
+			padding: 1.5em;
+}
+}
+.sec h2
+{
+	position: relative;
+	color: black;
+	font-weight: 500;
+	margin-bottom: 15px;
+	font-style: normal;
+	background: none;
+}
+.sec h2:before
+{
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	width: 50px;
+	height: 2px;
+	background: skyblue;
+}
+.sec p
+{
+	color: black;
+}
+.sci
+{
+	margin-top: 20px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(4,50px);		
+ 		li
+		{
+			list-style: none;
+				a
+				{
+				display: inline-block;
+				width: 48px;
+				height: 48px;
+				background: skyblue;
+				display: grid;
+				align-content: center;
+				justify-content: center;
+				margin-right: 10px;
+				text-decoration: none;
+				border-radius: 4px;
+			}
+		}
+	}
+
+.sci li a:hover
+{
+	background: white;
+}
+
+.sec.enlac_rapido
+{
+	position: relative;
+		 ul li
+		{	list-style: none;
+			a
+			{
+			color: black;
+			text-decoration: none;
+			margin-bottom: 10px;
+			display: inline-block;
+		}
+	}
+}
+
+.sec.enlac_rapido ul li a:hover
+{
+	color: skyblue;
+	font-weight: bold;
+	
+}
+.sec.contact .info
+	{ position: relative;
+		li
+		{	display: grid;
+			grid-template-columns: 30px 1fr;
+			margin-bottom: 16px;
+				a
+				{	color: black;
+					text-decoration: none;
+		}
+	}
+}
+
+
+.sec.contact .info li a:hover
+{
+	color: skyblue;
+	font-weight: bold;
+}
+
+
+.copyrightTexto
+{
+	width: 100%;
+	background: skyblue;
+	padding: 8px 100px;
+	text-align: center;
+	color: black;
+}
+
+@media (max-width: 991px)
+{
+	footer
+	{
+		padding: 40px;
+	}
+	footer .footcontenedor
+	{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-gap: 20px;
+	}
+	.copyrightTexto
+	{
+		padding: 5px 40px;
+	}
+}
+@media (max-width: 768px)
+{
+	footer .footcontenedor
+	{
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(1,1fr);
+		grid-gap: 20px;
+	}
+}

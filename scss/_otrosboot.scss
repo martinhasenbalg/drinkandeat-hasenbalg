@@ -1,0 +1,28 @@
+/* == OTROS  class BOOTSTRAP a ordenar == */
+
+
+
+.ppna {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .navPrincipal {
+        display: flex;
+        justify-content: center;
+        background-color: whitesmoke;
+      }
+      
+    .navPrincipal li {
+        padding-right: 3em;
+    }
+    }
+
+.bg-light {
+    background-color: whitesmoke !important;
+  }
