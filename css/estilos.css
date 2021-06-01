@@ -649,3 +649,7 @@ h4 span:nth-child(odd) {
 
 h4:hover span:nth-child(odd) {
   letter-spacing: 0; }
+
+@media (max-width: 375px) {
+  .error404 h4 {
+    font-size: 2em; } }
