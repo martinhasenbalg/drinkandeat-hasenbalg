@@ -1,2 +1,60 @@
 /*== MEDIOS DE PAGO == */
 
+
+.fdp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  
+  .fdp__img img {
+    max-width: 7em;
+    padding-right: 1.5em;
+  }
+
+  @media (min-width: 769px) { 
+      .fdp__img img {
+        max-width: 15em;
+        padding-right: 1.5em;
+      }
+  }
+
+  .fdp__p {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  @media (min-width: 769px) { 
+    .fdp__p {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 1.5em;
+      text-align: center;
+      font-size: 3em;
+    }
+  }.fdp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fdp__img img {
+  max-width: 15em;
+}
+
