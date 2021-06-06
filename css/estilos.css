@@ -292,6 +292,9 @@ li {
 .bg-light {
   background-color: whitesmoke !important; }
 
+ul.navbar-nav a:hover {
+  background-color: skyblue !important; }
+
 /* == GRID PRODUCTOS == */
 .grid {
   display: grid;
@@ -717,3 +720,30 @@ h4:hover span:nth-child(odd) {
 @media (max-width: 375px) {
   .error404 h4 {
     font-size: 2em; } }
+
+.centrado {
+  text-align: center; }
+
+.contenedor_sn {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  max-width: 700px;
+  margin: auto; }
+
+.sninnovacion, .snatencion, .sncalidad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2.5em;
+  background: whitesmoke;
+  margin-bottom: 2.5em; }
+
+.contenedor_sn img {
+  max-width: 10em; }
+
+.sninnovacion {
+  margin-top: 2.5em; }
