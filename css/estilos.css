@@ -275,12 +275,6 @@ li {
   margin: 0 auto; }
 
 /* == OTROS  class BOOTSTRAP a ordenar == */
-.ppna {
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  justify-content: center; }
-
 @media (min-width: 768px) {
   .navPrincipal {
     display: flex;
