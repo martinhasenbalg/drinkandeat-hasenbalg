@@ -37,6 +37,22 @@
 	}
 }
 
+@media (min-width: 376px) { 
+	.slider {
+	  width: 75%;
+	  margin: auto;
+	  overflow: hidden;
+	 }
+  }
+  
+  @media (min-width: 769px) { 
+	.slider {
+	  width: 50%;
+	  margin: auto;
+	  overflow: hidden;
+	 }
+  }
+
 @keyframes cambio {
     0% {margin-left: 0;}
     20% {margin-left: 0;}

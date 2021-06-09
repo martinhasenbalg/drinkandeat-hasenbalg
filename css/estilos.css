@@ -163,7 +163,8 @@ li {
 
 .segundasec {
   margin-top: 15px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  background: whitesmoke; }
 
 .imgpec {
   max-width: 100%; }
@@ -657,6 +658,18 @@ a {
       list-style: none; }
       .slider2 ul li img {
         width: 100%; }
+
+@media (min-width: 376px) {
+  .slider {
+    width: 75%;
+    margin: auto;
+    overflow: hidden; } }
+
+@media (min-width: 769px) {
+  .slider {
+    width: 50%;
+    margin: auto;
+    overflow: hidden; } }
 
 @keyframes cambio {
   0% {
