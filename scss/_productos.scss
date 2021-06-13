@@ -76,13 +76,11 @@
 .vino__contenido,
 .cerveza__contenido,
 .gourmet__contenido {
-    display: block;
+    display: inline-block;
     text-align: justify;
     font-size: 16px;
-    margin: 0 auto;
-    padding-top: 80px;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
+    margin: auto;
+    padding: 1.5em;
 }
 
 .formproducto {
@@ -123,6 +121,16 @@
     background-color: skyblue;
     font-weight: bold;
 }
+
+
+.producto__imagen {
+    transition: transform 0.2s;
+}
+
+.producto__imagen:hover {
+    transform: scale(1.1);
+}
+
 /* == BOTON COMPRAR == */
 .btn-primary {
     background-color: steelblue;

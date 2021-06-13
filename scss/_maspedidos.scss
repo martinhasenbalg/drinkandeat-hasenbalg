@@ -5,6 +5,7 @@
   min-height: 20em;
   background: whitesmoke;
   text-align: center;
+  margin-bottom: 2em;
 }
 .mpcontenedor
 { display: grid;
@@ -26,6 +27,7 @@
 @media (min-width: 1024px) { 
   .mpcontenedor {
       grid-template-columns: repeat(6, 1fr);
+      width: 1425px;
   }
 }
 @media (min-width: 375px) { 

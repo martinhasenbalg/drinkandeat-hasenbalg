@@ -351,13 +351,11 @@ ul.navbar-nav a:hover {
 .vino__contenido,
 .cerveza__contenido,
 .gourmet__contenido {
-  display: block;
+  display: inline-block;
   text-align: justify;
   font-size: 16px;
-  margin: 0 auto;
-  padding-top: 80px;
-  padding-left: 1.5em;
-  padding-right: 1.5em; }
+  margin: auto;
+  padding: 1.5em; }
 
 .formproducto {
   display: grid;
@@ -392,6 +390,12 @@ ul.navbar-nav a:hover {
   cursor: pointer;
   background-color: skyblue;
   font-weight: bold; }
+
+.producto__imagen {
+  transition: transform 0.2s; }
+
+.producto__imagen:hover {
+  transform: scale(1.1); }
 
 /* == BOTON COMPRAR == */
 .btn-primary {
@@ -435,7 +439,8 @@ footer {
 
 .sec p {
   color: black;
-  text-align: justify; }
+  text-align: justify;
+  padding: 1em; }
 
 .sci {
   margin-top: 20px;
@@ -539,7 +544,8 @@ footer {
   align-items: center;
   min-height: 20em;
   background: whitesmoke;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 2em; }
 
 .mpcontenedor {
   display: grid;
@@ -556,7 +562,8 @@ footer {
 
 @media (min-width: 1024px) {
   .mpcontenedor {
-    grid-template-columns: repeat(6, 1fr); } }
+    grid-template-columns: repeat(6, 1fr);
+    width: 1425px; } }
 
 @media (min-width: 375px) {
   .mpcontenedor .cuadro {
@@ -667,7 +674,7 @@ a {
 
 @media (min-width: 769px) {
   .slider {
-    width: 50%;
+    width: 75%;
     margin: auto;
     overflow: hidden; } }
 
