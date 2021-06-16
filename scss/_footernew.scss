@@ -141,6 +141,10 @@ footer
 	font-weight: bold;
 }
 
+.sec.enlac_rapido h2 {
+	margin-bottom: 1em;
+}
+
 .copyrightTexto
 {	width: 100%;
 	background: skyblue;
@@ -179,6 +183,13 @@ footer
 		display: grid;
 		grid-template-columns: repeat(1,1fr);
 		grid-gap: 20px;
+	}
+}
+
+@media (min-width: 769px){
+	.mapa {
+		display: none;
+		visibility: hidden;
 	}
 }
 

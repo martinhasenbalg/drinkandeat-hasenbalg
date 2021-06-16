@@ -300,7 +300,8 @@ ul.navbar-nav a:hover {
   grid-row-gap: 10px;
   margin-bottom: 1.5em;
   margin-left: 1.5em;
-  margin-right: 1.5em; }
+  margin-right: 1.5em;
+  max-width: 100%; }
 
 @media (min-width: 768px) {
   .grid {
@@ -564,6 +565,9 @@ footer {
   color: skyblue;
   font-weight: bold; }
 
+.sec.enlac_rapido h2 {
+  margin-bottom: 1em; }
+
 .copyrightTexto {
   width: 100%;
   background: skyblue;
@@ -590,6 +594,11 @@ footer {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px; } }
+
+@media (min-width: 769px) {
+  .mapa {
+    display: none;
+    visibility: hidden; } }
 
 .maspedidoshovers {
   display: grid;

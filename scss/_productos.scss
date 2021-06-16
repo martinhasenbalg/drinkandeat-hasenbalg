@@ -9,7 +9,8 @@
     grid-row-gap: 10px;
     margin-bottom: 1.5em;
     margin-left: 1.5em;
-    margin-right: 1.5em; }
+    margin-right: 1.5em;
+    max-width: 100%; }
   
   @media (min-width: 768px) {
     .grid {
@@ -137,13 +138,12 @@
     font-size: 16px;
     margin: auto;
     padding: 1.5em;
-}
+  }
 
 .formproducto {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
-
     
 }
 .formp__campo {
