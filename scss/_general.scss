@@ -63,3 +63,16 @@ li {
 .my-float{
 	margin-top:16px;
 }
+
+.imagen_promo {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto;
+    }
+
+@media (min-width: 768px) {
+    .imagen_promo {
+        max-width: 75%;
+    }
+}
