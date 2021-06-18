@@ -337,6 +337,10 @@ ul.navbar-nav a:hover {
   height: 350px;
   /*cambiado*/ }
 
+.producto p {
+  line-height: 1em;
+  font-size: 15px; }
+
 .producto_imagen img {
   width: 12em;
   padding-top: 15px; }
@@ -366,6 +370,36 @@ ul.navbar-nav a:hover {
 .producto:hover {
   background-color: skyblue;
   cursor: pointer; }
+
+.paravino {
+  background-image: url("../imagenes/back.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  opacity: 0.75; }
+
+.paracerveza {
+  background-image: url("../imagenes/backcerveza.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  opacity: 0.75; }
+
+.paragourmet {
+  background-image: url("../imagenes/backgourmet.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  opacity: 0.75; }
 
 .producto_btn {
   width: 130px;
