@@ -83,10 +83,30 @@
   opacity: 0.75;
 }
 
+.paravinofijo {
+  background-image: url("../imagenes/back.jpg");
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  opacity: 0.75;
+}
+
 .paracerveza {
   background-image: url("../imagenes/backcerveza.jpg");
   min-height: 300px;
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  opacity: 0.75;
+}
+
+.paracervezafijo {
+  background-image: url("../imagenes/backcerveza.jpg");
+  min-height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,6 +123,32 @@
   background-size: cover;
   margin: 15px;
   opacity: 0.75;
+}
+
+.paragourmetfijo {
+  background-image: url("../imagenes/backgourmet.jpg");
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 15px;
+  opacity: 0.75;
+}
+
+@media (max-width: 769px) {
+  .paravino,
+  .paracerveza,
+  .paragourmet {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .paravinofijo,
+  .paracervezafijo,
+  .paragourmetfijo {
+    display: none;
+  }
 }
 
 
